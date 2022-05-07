@@ -26,7 +26,7 @@ void Train::addCage(bool light) {
       tail = first;
     }
 }
-int Train::getLenght() {
+int Train::getLength() {
   first->light = true;
   Cage *temp = first;
   int lenght = 0, tmpCount = 0;
@@ -46,7 +46,7 @@ int Train::getLenght() {
       }
     }
   }
-  return lenght;
+  return length;
 }
 int Train::getOpCount() {
   return countOp;
