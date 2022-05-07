@@ -41,7 +41,7 @@ int Train::getLength() {
         temp = temp->prev;
       }
       if (!temp->light) {
-        light = tmp;
+        length = tmp;
         break;
       }
     }
